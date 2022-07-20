@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/t500-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/t500-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/t500-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/t500-4.png" alt="" onclick="clickimg(this)">
+                    
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/t500-1.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>Smart Watch</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 170</p>
+                </div>
+                <p>- Disponible en color negro y blanco</p>
+                <p>- Pantalla de 2.5 pulgadas</p>
+                <p>- Resolución HD</p>
+                <p>- Grosor es de 44 mm</p>
+                <p>- Pesa 27.2 gramos</p>
+                <p>- Compatible con Android 5.0, iOS 9.0 superiores.</p>
+                <p>- Calcula las distancias recorridas por el usuario</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>
