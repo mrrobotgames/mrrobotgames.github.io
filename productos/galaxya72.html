@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy A72</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/galaxya72-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/galaxya72-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/galaxya72-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/galaxya72-4.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/galaxya72-5.png" alt="" onclick="clickimg(this)">
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/galaxya72-1.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>Samsung Galaxy A72</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 2450</p>
+                </div>
+                <p>- Color Negro</p>
+                <p>- Pantalla de 6.7 pulgadas Full HD</p>
+                <p>- Batería 5000 mAh</p>
+                <p>- Sensor de huella digital en la pantalla</p>
+                <p>- 6GB de RAM</p>
+                <p>- 128GB de almacenamiento</p>
+                <p>- Android 11</p>
+                <p>- Procesador Snapdragon 720G de 8 núcleos 2.3/1.8ghz</p>
+                <p>- 4 Cámaras Macro 5MP (F2.4), Ultraancha 12MP(F2.2), Principal 64MP (F1.8) OIS, Teleobjetivo de 8MP</p>
+                <p>- Cámara frontal 32MP</p>
+                <p>- Cámara frontal de alta resolución, selfies impresionantes</p>
+                <p>- Captura detalles incluso con poca luz gracias a OIS</p>
+                <p>- La cámara macro destaca los pequeños detalles</p>
+                <p>- Resistente a derrames y salpicaduras de agua</p>
+                <p>- Sonido envolvente</p>
+                <p>- Carga rápida de 25W</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>

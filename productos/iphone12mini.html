@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 12 mini</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/iphone12-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone12-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone12-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone12-4.png" alt="" onclick="clickimg(this)">
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/iphone12-1.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>iPhone 12 Mini</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 3700</p>
+                </div>
+                <p>⚡ Disponible en color Verde, Azul, Púrpura, Rojo,  Blanco y Negro </p>
+                <p>⚡ Pantalla de 5.5 pulgadas</p>
+                <p>⚡ Batería  2775 mAh</p>
+                <p>⚡ Lector de huella</p>
+                <p>⚡ 4GB de RAM</p>
+                <p>⚡ 64GB de almacenamiento</p>
+                <p>⚡ iOS 14</p>
+                <p>⚡ Procesador Apple A14 Bionic</p>
+                <p>⚡ Cámara principal 12MP</p>
+                <p>⚡ Cámara frontal 12MP</p>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>

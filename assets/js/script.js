@@ -98,3 +98,47 @@ function a13() {
 function t500() {
   window.location.href = "./productos/t500.html";
 }
+
+function tabm7() {
+  window.location.href = "./productos/tabm7.html";
+}
+
+function taba8() {
+  window.location.href = "./productos/taba8.html";
+}
+
+function redmi10pro() {
+  window.location.href = "./productos/redmi10pro.html";
+}
+
+function galaxya72() {
+  window.location.href = "./productos/galaxya72.html";
+}
+
+function lp40() {
+  window.location.href = "./productos/lp40.html";
+}
+
+function x15() {
+  window.location.href = "./productos/x15.html";
+}
+
+function c11() {
+  window.location.href = "./productos/c11.html";
+}
+
+function ztea31() {
+  window.location.href = "./productos/ztea31.html";
+}
+
+function a03() {
+  window.location.href = "./productos/a03.html";
+}
+
+function iphone12mini() {
+  window.location.href = "./productos/iphone12mini.html";
+}
+
+function m26plus() {
+  window.location.href = "./productos/m26plus.html";
+}

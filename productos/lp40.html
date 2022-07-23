@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audifonos Lenovo</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/lp40-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/lp40-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/lp40-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/lp40-4.png" alt="" onclick="clickimg(this)">
+                    
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/lp40-2.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>Audifonos Inalambricos Lenovo</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 180</p>
+                </div>
+                <p>⚡ Disponible en color negro y blanco </p>
+                <p>⚡ Bluetooth 5.0</p>
+                <p>⚡ Audio estereo dual</p>
+                <p>⚡ Control táctil</p>
+                <p>⚡ Batería 230 mAh/p>
+                <p>⚡ Tamaño pequeño y ligero (25g)</p>
+                <p>⚡ Tiempo de carga 1.5h</p>
+                <p>⚡ Distancia de transmisión 10mt</p>
+                <p>⚡ Baja latencia </p>
+                <p>⚡ Compatible con IOS & Android</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>

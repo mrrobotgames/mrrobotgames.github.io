@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablet Samsung</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/taba8-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/taba8-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/taba8-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/taba8-4.png" alt="" onclick="clickimg(this)">
+                    
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/taba8-1.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>Tablet Samsung Galaxy Tab A8</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 1300</p>
+                </div>
+                <p>- Color Gris</p>
+                <p>- Pantalla de 10.5 pulgadas</p>
+                <p>- Batería 7040 mAh</p>
+                <p>- 3GB de RAM</p>
+                <p>- 32GB de almacenamiento</p>
+                <p>- Procesador UniSOC T618 2GHz</p>
+                <p>- Cámara frontal 5MP</p>
+                <p>- Cámara posterior 8MP</p>
+                <p>- Entrada USB-C</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>

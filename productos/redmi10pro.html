@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redmi Note 10 Pro</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/redmi10pro-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/redmi10pro-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/redmi10pro-1.png" alt="" onclick="clickimg(this)">
+                    
+                    
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/redmi10pro-3.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>Redmi Note 10 Pro</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 1450</p>
+                </div>
+                <p>- Color Gris</p>
+                <p>- Pantalla de 6.7 pulgadas</p>
+                <p>- Batería 5020 mAh</p>
+                <p>- 6GB de RAM</p>
+                <p>- 128GB de almacenamiento</p>
+                <p>- Procesador Snapdragon 732G 2.3GHz</p>
+                <p>- Cámara frontal 16MP</p>
+                <p>- Cámara posterior 40MP</p>
+                <p>- Resolución de la pantalla	120 Hz HDR10</p>
+                <p>- Android 10</p>
+                <p>- Entrada USB-C</p>
+                <p>- Carga rápida</p>
+                <p>- Lector de huella</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>
