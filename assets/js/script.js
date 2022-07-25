@@ -142,3 +142,11 @@ function iphone12mini() {
 function m26plus() {
   window.location.href = "./productos/m26plus.html";
 }
+
+function iphone11() {
+  window.location.href = "./productos/iphone11.html";
+}
+
+function galaxya33() {
+  window.location.href = "./productos/galaxya33.html";
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 11</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/iphone11-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone11-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone11-3.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone11-4.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/iphone11-5.png" alt="" onclick="clickimg(this)">
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/iphone11-1.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>iPhone 11</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 2800</p>
+                </div>
+                <p>⚡ Disponible en color Verde, Azul, Púrpura, Rojo,  Blanco y Negro </p>
+                <p>⚡ Pantalla de 6.1 pulgadas</p>
+                <p>⚡ Batería  3110 mAh</p>
+                <p>⚡ Face ID</p>
+                <p>⚡ 4GB de RAM</p>
+                <p>⚡ 64GB de almacenamiento</p>
+                <p>⚡ iOS 13</p>
+                <p>⚡ Procesador Apple A13 Bionic</p>
+                <p>⚡ Sistema de dos cámaras de 12 MP: ultra gran angular y gran angular</p>
+                <p>⚡ Cámara frontal 12MP</p>
+                <p>⚡ Grabación de video 4K a 24 cps, 30 cps o 60 cps</p>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>

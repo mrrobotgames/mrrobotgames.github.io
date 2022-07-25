@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy A33</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="product-box">
+                <div class="all-images">
+                <div class="small-images">
+                    <img src="../assets/images/products/galaxya33-1.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/galaxya33-2.png" alt="" onclick="clickimg(this)">
+                    <img src="../assets/images/products/galaxya33-3.png" alt="" onclick="clickimg(this)">
+                   
+                </div>
+                <div class="main-images">
+                    <img src="../assets/images/products/galaxya33-1.png" alt="" id="imagebox">
+                </div>
+            </div>
+            </div>
+            <div class="text">
+                <div class="content">
+                    <p class="brand">Nuevo</p>
+                    <h2>Samsung Galaxy A33</h2>
+                </div>
+                <div class="price-box">
+                    <p class="price">S/ 1750</p>
+                </div>
+                <p>- Color Negro</p>
+                <p>- Pantalla de 6.4 pulgadas Full HD</p>
+                <p>- Batería 5000 mAh</p>
+                <p>- Sensor de huella</p>
+                <p>- 6GB de RAM</p>
+                <p>- 128GB de almacenamiento</p>
+                <p>- Android 11</p>
+                <p>- Procesador Exynos 1280 2.4GHz</p>
+                <p>- 4 Cámaras principales: 48MP + 8MP + 5MP + 2MP</p>
+                <p>- Cámara frontal 13MP</p>
+                <p>- Interfaz USB-C</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickimg(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+
+    </script>
+</body>
+</html>
